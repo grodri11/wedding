@@ -1,0 +1,135 @@
+
+/*
+Header CSS
+*/
+.navbar-default {
+    background-color: #322e46 !important;
+    margin: 0 auto;
+    border: 0 !important;
+}
+
+.nav.navbar-nav{
+	  width: 100%;
+    text-align: center;
+}
+
+
+.nav.navbar-nav li {
+	    float: none;
+    display: inline-block;
+    padding: 10px 20px 20px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*
+Header links CSS
+*/
+
+a {
+  background-color: transparent !important;
+}
+
+a:active,
+a:hover {
+  outline: 0 !important;
+}
+
+.nav.navbar-nav li a:hover, .nav.navbar-nav li a.active, .nav.navbar-nav li a:visited:hover, .nav.navbar-nav li a:visited.active {
+    color: #ffd9d9 !important;
+    border-bottom: solid 1px #ffd9d9;
+}
+
+
+.nav.navbar-nav li a,
+.nav.navbar-nav li a:visited{
+	 font-size: 16px;
+    font-weight: 500;
+    color: #ffd9d9 !important;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: solid 1px transparent;
+    font-family: "Gotham", sans-serif;
+    text-transform: uppercase;
+    transition: border-bottom 0.25s ease-in-out;
+}
+
+.nav.navbar-nav li.active > a, .nav.navbar-nav li.active > a:focus {
+    color: #ffd9d9 !important;
+    border-bottom: solid 1px #ffd9d9;
+    background-color: transparent;
+}
+
+
+/*
+Couple image
+*/
+
+
+.hero {
+    background-image: url(/assets/images/engagement.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 750px;
+    overflow: hidden;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.hero-title-image {
+    width: 350px;
+    height: 500px;
+    background-image: url();
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 0;
+    top: 150px;
+    right: 15%;
+}
+
+/*
+Intro
+*/
+#our-story-title {
+    width: 275px;
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+.inner-container {
+    position: relative;
+    z-index: 2;
+}
+
+section.intro {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 225px;
+}
+
+section:not(.hero) {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
