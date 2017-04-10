@@ -1,4 +1,17 @@
 
+h2 {
+    font-family: "Didot" !important;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Gotham", sans-serif;
+    font-size: 16px;
+    color: #6c6d70;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
 /*
 Header CSS
 */
@@ -103,11 +116,9 @@ Couple image
 Intro
 */
 #our-story-title {
-    width: 275px;
-    -moz-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
+    width: 400px;
+    padding-bottom: 25px;
+   
 }
 .inner-container {
     position: relative;
@@ -132,4 +143,64 @@ section:not(.hero) {
     margin: 0 auto;
 }
 
+section.wedding-info {
+    background-color: #ffd9d9;
+    position: relative;
+    z-index: 4;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
 
+#wedding-title {
+    width: 450px;
+}
+.wedding-info-title{
+	    text-align: center;
+    margin-bottom: 50px;
+}
+.wedding-info-content{
+	margin-bottom: 50px;
+
+}
+.wedding-info-content .ceremony{
+	text-align: right;
+	border-right: solid 1px #6c6d70;
+    padding-right: 45px;
+}
+
+.wedding-info-content .lunch{
+    padding-left: 45px;
+}
+
+.wedding-info-title h2 {
+    margin-top: -50px;
+}
+
+.btn-pink {
+    font-family: "Gotham", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fe3957 !important;
+    color: white;
+    border: solid 2px #fe3957;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.wedding-info-button {
+    display: block;
+    text-align: center;
+}
+.btn-pink:hover {
+    background-color: #e4334e;
+}
+
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none!important;
+}
